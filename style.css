@@ -1,0 +1,395 @@
+.header-banner{
+    background-image: url("/img/back-ground-banner.png");
+    width: 1440px;
+    height: 810px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    background-color:  #000000B2; 
+    align-items: center;
+    height: 80px;
+    width: auto;
+    /* opacity: 0.3; */
+}
+.header .menu-bar{
+    display: flex;
+    gap: 52px;
+    
+}
+
+.header .menu-bar .menu-seat{
+    display: flex;
+    color: #fff;
+    list-style: none;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    align-content: center;
+    margin: unset;
+    gap: 40px;
+    align-items: center;
+}
+.btn-general{
+    background: #CD0000 ;
+    font-size: 14px;
+    line-height: 16.94px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+.header .menu-bar .btn-started{
+    width: 174px;
+    height: 44.96px;
+}
+
+.banner-content{
+    display: flex;    
+}
+
+.banner-content .favorite,
+.banner-content .download
+{
+    font-size: 64px;
+    line-height: 77.45px;
+    color: #fff;
+}
+.banner-content .favorite .favorite-content{
+    font-weight: 700;
+    width: 595px;
+    height: 231px;
+    left: 1px;
+}
+
+.banner-content .favorite .highlight{
+    color: #FF0000;
+    display: inline-block;
+}
+
+.banner-content .favorite .lorem-content{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    opacity: 65%;
+    margin-top: 15px;
+
+}
+.banner-content .download .download-content{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15.73px;
+    letter-spacing: 1.63px;
+    margin-top: 12px;
+}
+
+.banner-content .favorite{
+    position: relative;
+    width: 596px;
+    height: 526px;
+    bottom: 80px;
+}
+.banner-content .download{
+    width: 383px;
+    height: 99px;
+}
+.header-banner .banner-content{
+    padding-top: 176px;
+    padding-bottom: 108px;
+    padding-left: 150px;
+    padding-right: 694px;
+}
+.banner-content .favorite .btn-more{
+    width: 195px;
+    height: 59px;
+    color: #fff;
+}
+
+.banner-content .chat-box{
+    position: relative;
+    top: -79px;
+    right: 65px;
+}
+    
+
+.banner-content .lorem-content{
+    width: 476px;
+    height: 64px;
+}
+
+
+.about-us {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 164px;
+    
+}
+.about-us .image-container{
+    width: 475px;
+    height: 495px;
+    margin-left: 150px;
+}
+
+.about-us .about-content{
+    width: 410px;
+    height: 488px;
+    margin-right: 150px;
+}
+.about-us .about-content .about-style{
+    color: #cd0000; 
+    font-size: 20px; 
+    line-height: 24px; 
+    font-weight: 600;
+}                 
+
+.optimze-content{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.41px;
+}
+.fans-content{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #161c2d;
+}
+
+.interaction-content{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+}
+
+
+.ticket-sale {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 164px;
+    padding-bottom: 121px;
+}
+
+.ticket-sale .ticket-content{
+    width: 410px;
+    height: 445px;
+    margin-left: 150px;
+}
+
+.ticket-sale .imgseat-container{
+    width: 453px;
+    height: 530px;
+    margin-right: 150px;
+}
+
+.direction-ticket{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    margin-bottom: 70px;
+}
+.direction-ticket .direction{
+    text-align: center;
+    width: 443px;
+    height: 81px ;
+    list-style: none;
+}
+
+.direction-ticket .direction .how-work{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #CD0000;
+}
+.direction-ticket .direction .drc-content{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    color: #000000;
+}
+
+.direction-ticket .direction-container{
+    list-style: none;
+    display: flex;
+}
+
+.direction-content{
+    width: 300px;
+    height: auto;
+}
+
+.direction-container{
+    width: 1440px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.direction-container .drc-content{
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+.title-ticket{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    margin-top: 34.22px;
+}
+
+.title-note{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.demo-video{
+    width: 1440px;
+    height: auto;
+    display: flex;
+    bottom: 132px;
+    justify-content: center;
+    margin-top: 71.84px;
+    background: linear-gradient(#ffffff 50%,#313C59 50%);
+    
+}
+
+.key-feature{
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 1440px;
+    height: 1630px;
+    position: relative;
+    background-color: #313C59;
+    top: -2px;
+}
+
+.key-feature .header-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    position:relative;
+    top: 132px;
+}
+.features{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    position: relative;
+    width: 1140px;    
+    left: 150px;
+    top: 221px;
+}
+
+.features .feature-box{
+   display: flex;
+   width: 339px;
+   height: 134px;
+}
+.dcrt-content{
+    position: relative;
+    left: 24px;
+}
+
+.feature-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.title-box {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.customer-review{
+    position: absolute;
+    top: 750px;
+    left: 355px;
+}
+.customer-review .header-title{
+    position: relative;
+    top: 0;
+}
+.list-review{
+    position: relative;
+    top: 68px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+
+}
+
+
+.footer-column>a{
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    margin: 0.3em 0;
+    font-size: 0.9em;
+}
+.footer-section{
+    background-color: #F9FAFB;
+    padding: 2em;
+    color: #666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+}
+.footer-column>h3,
+.app-download>a{
+    font-size: 1em;
+    color: #313C59 !important;
+    margin-bottom: 0.5em;
+}
+
+.contact-link{
+    color: #CD0000 !important;
+}
+
+.app-download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.app-download>a{
+    text-decoration: none;
+}
+.app-download img{
+    width: 120px;
+    margin: 0.5em 0;
+}
+.footer-bottom{
+    text-align: center;
+    font-size: 0.9em;
+    color: #333;
+    margin-top: 48px;
+    width: 1140px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons{
+    margin: 0 0.5em;
+    color: #333;
+    font-size: 1.2em;
+    text-decoration: none;
+}
