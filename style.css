@@ -44,8 +44,7 @@
     border: none;
 }
 .header .menu-bar .btn-started{
-    width: 174px;
-    height: 44.96px;
+    padding: 14px 26px;
 }
 
 .banner-content{
